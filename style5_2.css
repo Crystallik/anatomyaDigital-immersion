@@ -1,0 +1,90 @@
+*, *:after, *:before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   transition: .5s ease-in-out;
+}
+
+body{
+	background: url(bac-nd2.png);
+    background-size: 100%;
+}
+
+.head_text{
+	padding: 1.5vw;
+	font-size: 3vw;
+	text-align: center;
+	color: #E24C0B;
+}
+
+.stic{
+	background: #FFB78E;
+	width: 99.8%;
+	height: 1.5vw;
+}
+
+.div_1{
+	background: #FFA06A;
+	width: 33vw;
+	margin-top: 12vw;
+	margin-left: 10vw;
+	font-size: 1.5vw;
+	float: left;
+}
+
+.but_arrow{
+	width: 4vw;
+	height: 4vw;
+	float: left;
+	background: #FFA06A;
+	border-color: white;
+}
+
+.img_1{
+	width: 3vw;
+	height: 3vw;
+}
+
+.img_2{
+	float: right;
+	width: 35vw;
+	height: 35vw;
+	margin-top: 3vw;
+	margin-right: 8vw;
+}
+
+@media (max-width: 1000px){
+	.img_1{
+		width: 9vw;
+		height: 9vw;
+	}
+
+	.head_text{
+		display: none;
+	}
+
+	.stic{
+		display: none;
+	}
+
+	.but_arrow{
+		width: 10vw;
+		height: 10vw;	
+	}
+
+	.div_1{
+		position: absolute;
+		width: 100%;
+		top: 0%;
+		margin-left: 0vw;
+		font-size: 150%;
+	}
+
+	.img_2{
+		position: absolute;
+		height: 100vw;
+		left: 0vw;
+		top: 40%;
+		width: 100%;
+	}
+}

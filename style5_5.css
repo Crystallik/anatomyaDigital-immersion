@@ -1,0 +1,125 @@
+*, *:after, *:before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   transition: .5s ease-in-out;
+}
+
+body{
+	background: url(bac-nd2.png);
+    background-size: 100%;
+   	line-height: 1;
+}
+
+.head_text{
+	padding: 1.5vw;
+	font-size: 3vw;
+	text-align: center;
+	text-transform: uppercase;
+	color: #E24C0B;
+}
+
+.stic{
+	background: #FFB78E;
+	width: 99.8%;
+	height: 1.5vw;
+}
+
+#div{
+	background: #FFA06A;
+	width: 33vw;
+	padding-left: 5px;
+	padding-bottom: 0.5vw;
+	margin-top: 3vw;
+	margin-left: 5vw;
+	font-size: 20px;
+	display: block;
+	display: inline-block;	
+}
+
+.div_2{
+	margin-right: 5vw;
+	float: right;
+	height: 10vw;
+}
+
+.but_arrow{
+	width: 4vw;
+	height: 4vw;
+	float: left;
+	background: #FFA06A; 
+	border-color: white;
+}
+
+.img_1{
+	width: 3vw;
+	height: 3vw;
+}
+
+.img_2{
+	float: left;
+	width: 28vw;
+	height: 20vw;
+	margin-top: 3vw;
+	margin-left: 8vw;
+}
+
+.img_3{
+	float: right;
+	margin-right: 8vw;
+}
+
+@media (max-width: 1000px){
+	.img_1{
+		width: 9vw;
+		height: 9vw;
+		right: 0vw;
+	}
+
+	.head_text{
+		display: none;
+	}
+
+	.stic{
+		display: none;
+	}
+
+	.but_arrow{
+		width: 10vw;
+		height: 10vw;	
+	}
+
+	#div{
+		font-size: 200%;
+		margin-left: 0vw;
+		width: 100%;	
+	}
+
+	.div_2{
+		height: 30%;
+		position: absolute;
+		left: 0vw;
+		top: 120%;	
+	}
+
+	.div_1{
+		top: 40%;
+	}
+
+	.img_2{
+		position: absolute;
+		height: 70%;
+		left: 0vw;
+		margin-left: 0vw;
+		top: 45.5%;
+		width: 100%;
+	}
+
+	.img_3{
+		position: absolute;
+		height: 90vw;
+		left: 0vw;
+		top: 153.5%;
+		width: 100%;
+	}
+}

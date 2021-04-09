@@ -1,0 +1,222 @@
+*, *:after, *:before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   transition: .5s ease-in-out;
+}
+
+body{
+	background: url(bac-nd2.png);
+    background-size: 100%;
+}
+
+.head_text{
+	padding: 1.5vw;
+	font-size: 3vw;
+	text-align: center;
+	color: #E24C0B;
+}
+
+.stic{
+	background: #FFB78E;
+	width: 99.8%;
+	height: 1.5vw;
+}
+
+.but_1:before {
+    content: "Остеология (костный состав)";
+}
+
+.but_2:before {
+    content: "Синдесмология (соединения)";
+}
+
+.but_3:before {
+    content: "Миология (мышцы)";
+}
+
+.but_4:before {
+    content: "Спланхнология (органы)";
+}
+
+.but_5:before {
+    content: "Анатомия нервной системы(мозг)";
+}
+
+.but_6:before {
+    content: "Эстезиология (органы чувств)";
+}
+
+.but_7:before {
+    content: "Ангиология(кровь и лимфа)";
+}
+
+#but{
+	position: absolute;
+	height: 5vw;
+	width: 45%;
+	border-color: white;
+	display: inline-block;
+	font-size: 170%;
+	background: #FFA06A;
+	color: white;	
+	display: block;
+	
+}
+
+.but_1{
+	margin-top: 3vw;
+	left: 1%;
+}
+
+.but_2{
+	margin-top: 11vw;
+	left: 1%;
+}
+
+.but_3{
+	margin-top: 19vw;
+	left: 1%;
+}
+
+.but_4{
+	margin-top: 3vw;
+	left: 49%;
+}
+
+.but_5{
+	margin-top: 11vw;
+	left: 49%;
+}
+
+.but_6{
+	margin-top: 19vw;
+	left: 49%;
+}
+
+.but_7{
+	height: 5vw;
+	width: 46%;
+	margin-top: 30vw;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	font-size: 170%;
+	background: #FFA06A;
+	color: white;	
+	border-color: white;
+}
+
+.but_arrow{
+	width: 5vw;
+	height: 5vw;
+	float: left;
+	background: #FFA06A;
+	border-color: white;
+}
+
+.img_1{
+	width: 4vw;
+	height: 4vw;
+}
+
+@media (max-width: 1000px){
+	.head_text{
+		font-size: 300%;
+	}
+
+	.stic{
+		display: none;
+	}
+
+	.but_arrow{
+		position: absolute;
+		left: 0vw;
+		top: 140vw;
+		width: 15vw;
+		height: 15vw;	
+	}
+
+	.img_1{
+		width: 14vw;
+		height: 14vw;
+		top: 139vw;
+	}
+
+	#but{
+		position: absolute;
+		height: 12vw;
+		width: 100%;
+		left: 0vw;		
+		font-size: 300%;
+		background: #FFA06A;
+		color: white;	
+		border-color: white;
+	}
+
+	.but_1{
+		top: 10vw;
+	}
+
+	.but_2{
+		top: 20vw;
+	}
+
+	.but_3{
+		top: 30vw;
+	}
+
+	.but_4{
+		top: 64vw;
+	}
+
+	.but_5{
+		top: 74vw;
+	}
+
+	.but_6{
+		top: 85vw;
+	}
+
+	.but_7{
+		right: auto;
+		position: absolute;
+		height: 12vw;
+		width: 100%;
+		top: 92vw;
+		left: 0vw;
+		font-size: 300%;
+		background: #FFA06A;
+		color: white;	
+		border-color: white;
+	}
+
+	.but_1:before {
+	    content: "Остеология";
+	}
+
+	.but_2:before {
+	    content: "Синдесмология";
+	}
+
+	.but_3:before {
+    	content: "Миология";
+	}
+
+	.but_4:before {
+    	content: "Спланхнология";
+	}
+
+	.but_5:before {
+    	content: "Анатомия нервной системы";
+	}
+
+	.but_6:before {
+	    content: "Эстезиология";
+	}
+
+	.but_7:before {
+    	content: "Ангиология";
+	}
+}
